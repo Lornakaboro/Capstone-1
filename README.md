@@ -1,7 +1,7 @@
 # Capstone-1
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -36,11 +36,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 NUWEH <a name="about-project"></a>
+# 📖 Capstone-1 <a name="about-project"></a>
 
 > Nutrition, the future of healthcare
 
-**[NUWEH]** is a Capstone project from microverse it is about a nutrition website.
+**[Capstone-1]** is a Capstone project from microverse it is about a nutrition website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,11 +81,14 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
 - [Live Demo Link](https://lornakaboro.github.io/Capstone-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Video link -->
+## Project Documentation
+
+- Here is the [link]() to my loom video
 
 <!-- GETTING STARTED -->
 
@@ -150,7 +153,7 @@ Feel free to check the [issues page](https://github.com/Lornakaboro/nutrition-we
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give it a⭐️
+If you like this project please give it a⭐️!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,6 +173,6 @@ I would like to thank  [Cindy Shin](https://www.behance.net/adagio07)
 
 ## 📝 License <a name="license"></a>
 
-This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
