@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/c6cb015206.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="introduction-section">
+      <div class="hamburger-icon d-md-none">
+        <i
+          class="fa fa-bars hamburger"
+          aria-hidden="true"
+          id="hamburger-icon"
+          onclick="toggleMobileMenu()"
+        ></i>
+        <div
+          class="dropdown-menu-nuweh hidden-dropdown-menu"
+          id="nav-dropdown-menu"
+        >
+          <i
+            class="fa-regular fa-x dropdown-x-icon"
+            id="nav-dropdown-x-icon"
+            onclick="toggleMobileMenu()"
+          ></i>
+          <ul class="nav-dropdown">
+            <li class="nav-dropdown-item">
+              <a
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this,'#introduction-section')"
+                >About</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#about-me')"
+                >Program</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#contact-me')"
+                >Join</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#contact-me')"
+                >Sponsor</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#contact-me')"
+                >News</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#contact-me')"
+                >Nuweh programs</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container-fluid social-media-section mobile-hide">
+        <div class="row social-media-row">
+          <!-- <div class="col-6"></div> -->
+          <ul class="social-media row col-3 offset-md-7">
+            <li class="col-1">
+              <a href="" class="social-media-item">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="col-1">
+              <a
+                href="https://twitter.com/KaboroLorna/"
+                class="social-media-item"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="col">
+              <a href="#" class="social-media-item">English</a>
+            </li>
+            <li class="col">
+              <a href="#" class="social-media-item">My page</a>
+            </li>
+            <li class="col">
+              <a href="#" class="social-media-item">Logout</a>
+            </li>
+          </ul>
+          <div class="col-1 offset-md-1"></div>
+        </div>
+      </div>
+      <div class="container nav-list py-3 mobile-hide">
+        <a href="index.html" class="header-logo-link"
+          ><img src="./images/logo.png" alt="" class="header-logo"
+        /></a>
+        <ul class="nav">
+          <li class="col"><a href="index.html" class="nav-item">Home</a></li>
+          <li class="col"><a href="#" class="nav-item">Program</a></li>
+          <li class="col"><a href="#" class="nav-item">Join</a></li>
+          <li class="col"><a href="#" class="nav-item">Sponsor</a></li>
+          <li class="col"><a href="#" class="nav-item">News</a></li>
+          <li class="col-3"><a href="#" class="nav-item">Nuweh programs</a></li>
+        </ul>
+      </div>
+    </header>
+    
+    <!-- About section -->
+    <section class="intro-section" id="intro-section">
+      <div class="container about-introduction">
+        <h1 class="about-introduction-message text-uppercase">
+          Nuweh,Your virtual Nutritionist
+        </h1>
+        <p class="about-description">
+          Nuweh brings together a group of specialists who provide expert
+          information on a variety of nutrition related topics.We also provide
+          support for people seeking to adapt into a healthier lifestyle by
+          providing information of healthy dietary practises,providing
+          personalized diet plans,providing exercise programs and walking with
+          inividuals throughout their entire journey.We hope to reach out to
+          asmany individuals as possible and help them begin their healthy
+          lifestyle journey.We firmly believe that good nutrtion is the new
+          tradition
+        </p>
+        <p class="about-email">
+          Please contact us via email for any further enquiries about Nuweh,your
+          virtual nutrionist
+        </p>
+        <a href="#" class="about-email-link">
+          nuwehvirtualnutritionist@gmail.com</a
+        >
+      </div>
+    </section>
+
+    <!-- Logo section -->
+    <section class="logo-section container">
+      <h3 class="about-logo-section-heading">
+        Nuweh,your virtual nutrtionist logo
+      </h3>
+      <p class="about-logo-section-description">
+        This logo was customized by a very able graphic designer and upon
+        consultation with the specialists a unanimous decison was made to make
+        it he logo for Nuweh,your virtual nutritionist
+      </p>
+      <img
+        src="./images/logo.png"
+        alt="image of Nuweh logo"
+        class="about-section-logo-image"
+      />
+    </section>
+
+    <div class="about-border"></div>
+
+    <!-- our features -->
+    <section class="container our-features">
+      <h4 class="our-features-heading">
+        See some of the popular programs,features and health events at Nuweh
+      </h4>
+      <p class="our-features-description">
+        Take a look at some of the nutrition and lifestyle change programs
+      </p>
+      <div class="feature-programs">
+        <div class="feature-program-name">
+          <h4 class="feature-program-heading">Customized Nutrtional plans</h4>
+          <p class="feature-program-description">
+            customized meal plans with your favorite foods
+          </p>
+        </div>
+        <div class="feature-program-name2">
+          <h4 class="feature-program-heading">Healthy living events</h4>
+          <p class="feature-program-description">
+            Weekly health seminars to raise awareness on healthy lifestyle
+           </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="project-rights-about container-fluid">
+      <img
+        src="./images/logo.png"
+        alt="Image of Nuweh logo"
+        class="footer-logo-about"
+      />
+      <div class="footer-content">
+        <div>Nuweh your virtual Nutritionist</div>
+        <div>
+          &copy; 2022 Nuweh,your virtual Nutritionist. All rights reserved
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
