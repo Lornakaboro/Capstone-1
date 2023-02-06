@@ -1,13 +1,46 @@
 # Capstone-1
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
 
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [NUWEH] <a name="about-project"></a>
+# 📖 NUWEH <a name="about-project"></a>
 
 > Nutrition, the future of healthcare
 
-**[NUWEH]** is a Capstone from microverse.
+**[NUWEH]** is a Capstone project from microverse it is about a nutrition website.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -50,7 +83,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://lornakaboro.github.io/nutrition-website/)
+- [Live Demo Link](https://lornakaboro.github.io/Capstone-1/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -62,8 +95,11 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
--Code Editor:[visual Studio code](https://code.visualstudio.com/)
--Web Browser
+In order to run this project you need:
+- Git installed in desktop
+- Code editor of your choice i.e; Visual Studio Code
+- Browser of your choice i.e; Mozilla Firefox ,google chrome, etc
+- Terminal of your choice i.e; Git Bash
 <!--
 Example command:
 
@@ -74,11 +110,11 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-
-```sh
-  cd my-folder
-  git clone https://github.com/Lornakaboro/nutrition-website.git
-```
+- use the git clone command with this [link](git@github.com:Lornakaboro/Capstone-1.git)
+- cd into Capstone-1
+- Switch branch using this command `git checkout create-nutrition-website`
+- Open index.html in your browser
+- You will be able to see a template with a nutrition website homepage, a brief description and seeviices offered,featured speakers and an about page.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
@@ -95,9 +131,8 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **A ticket Booking page**
-- [ ] **A gallery page**
-- [ ] **Competition page**
+- [ ] **An appointment Booking page**
+- [ ] **A testimonial page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,15 +150,13 @@ Feel free to check the [issues page](https://github.com/Lornakaboro/nutrition-we
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please share and contribute
+If you like this project please give it a⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank  [Cindy Shin](https://www.behance.net/adagio07)
 
