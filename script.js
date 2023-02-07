@@ -65,11 +65,10 @@ const specialistData = [
   },
 ];
 
-function generateSpecialistData(specialistData){
+function generateSpecialistData(specialistData) {
   let data = '';
-  
+
   for (let i = 0; i < specialistData.length; i += 1) {
-  
     data += ` 
     <div class="specialist-content">
             <img
@@ -89,5 +88,4 @@ function generateSpecialistData(specialistData){
   }
   return data;
 }
-document.querySelector('.featured-specialists-container').innerHTML = generateSpecialistData(specialistData)
-
+document.querySelector('.featured-specialists-container').innerHTML = generateSpecialistData(specialistData);
