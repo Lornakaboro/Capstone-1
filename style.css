@@ -5,7 +5,6 @@
   font-family: "lato", sans-serif;
   margin: 0;
   padding: 0;
-  /* font-family: "Cocogoose", sans-serif; */
 }
 
 .dropdown-menu-nuweh {
@@ -156,13 +155,9 @@
   justify-content: space-between;
   gap: 2%;
   color: #d3d3d3;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
   list-style: none;
-  margin-bottom: 9px;
   padding: 5% 5%;
   opacity: 0.8;
   margin-right: 10px;
@@ -407,17 +402,14 @@
   text-align: center;
 }
 
-.program-description {
-  color: #fff;
-}
-
 .feature-program-name {
   margin: 0 3%;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(228, 43, 23, 0.5),
       rgba(221, 43, 23, 0.5)
     ),
-    url(./images/meal\ plan.jpg);
+    url(./images/meal/plan.jpg);
   padding: 10% 20%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -427,7 +419,8 @@
 
 .feature-program-name2 {
   margin: 0 3%;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(228, 43, 23, 0.5),
       rgba(221, 43, 23, 0.5)
     ),
@@ -474,7 +467,6 @@
   font-weight: 400;
   margin-top: 20px;
   font-size: 1.2rem;
-
 }
 
 @media only screen and (min-width: 769px) {
@@ -571,11 +563,10 @@
 
   .program-item-holder {
     display: flex;
-    gap: 20px;
-    padding: 1% 5%;
-    margin-bottom: 100px;
+    padding: 3% 5%;
+    margin-bottom: 40px;
     gap: 1%;
-    margin: 0;
+    margin-top: 0;
     margin-left: 5%;
   }
 
@@ -587,7 +578,7 @@
     padding-bottom: 8px;
     padding-right: 10px;
     padding-left: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
     text-align: center;
@@ -620,7 +611,6 @@
     font-family: "Lato", sans-serif;
     font-size: 20px;
     text-decoration: underline;
-    margin: 5% 0;
   }
 
   .featured-specialists-container {
