@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
 * {
   font-family: "lato", sans-serif;
   margin: 0;
   padding: 0;
+  /* font-family: "Cocogoose", sans-serif; */
 }
 
 .dropdown-menu-nuweh {
@@ -38,6 +42,10 @@
   line-height: 62px;
   text-align: center;
   margin-left: 6%;
+}
+
+.nav-dropdown-item-link a :hover {
+  color: red;
 }
 
 .nav-dropdown {
@@ -86,7 +94,18 @@
   font-size: 40px;
   font-weight: 700;
   width: 100%;
-  font-family: "lato", sans-serif;
+  font-family: "Cocogoose", sans-serif;
+  transition: all 0.25s ease-in-out;
+}
+
+.introduction-title:hover {
+  color: transparent;
+  background-image: url("./images/title-background.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  -webkit-background-clip: text;
 }
 
 .introduction-slogan {
@@ -124,23 +143,47 @@
   width: auto;
 }
 
+.program-item-holder {
+  margin: 10% 3% 0 3%;
+  list-style: none;
+  padding: 0;
+}
+
 .item {
   display: flex;
   align-items: center;
   background-color: #444242;
+  justify-content: space-between;
   gap: 2%;
   color: #d3d3d3;
-  padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
   margin-bottom: 10px;
   margin-left: 10px;
+  list-style: none;
+  margin-bottom: 9px;
+  padding: 5% 5%;
+  opacity: 0.8;
   margin-right: 10px;
+  transition: outline 0.15s ease-in-out;
+}
+
+.program-description {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  flex-shrink: 1;
+}
+
+.item:hover {
+  outline: 2px solid #d3d3d3;
 }
 
 .item-icon {
   padding-right: 4%;
+  margin: 15px 0;
 }
 
 .main-program {
@@ -151,8 +194,16 @@
   width: 100%;
 }
 
-.section-subtitle {
+.program-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program-subtitle {
   font-size: 1rem;
+  font-family: "Cocogoose", sans-serif;
+  color: #ec5242;
 }
 
 .hr-title {
@@ -160,28 +211,74 @@
   width: 20%;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 20px 0;
+}
+
+.program-button {
+  padding: 5% 7%;
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto;
+  background-color: #ec5242;
+  color: #f0f2f5;
+  border: 0;
+}
+
+.see-more {
+  display: none;
+}
+
+.featured-specialists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
 .specialist-heading {
-  margin-top: 10px;
-  font-size: 25px;
+  font-size: 24px;
   color: #272a31;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .featured-specialists-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  margin: 0 3%;
+}
+
+.specialist-content {
+  display: flex;
+  gap: 5%;
+  padding: 1.5rem;
+  background-image: url("./images/chess.svg");
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position: left top;
 }
 
 .specialist-image {
-  width: 190px;
-  height: 130px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 55%;
   margin-top: 30px;
+  width: 115px;
+  height: 115px;
+  margin-right: 2%;
 }
 
 .specialist-name {
   font-size: 20px;
   text-align: left;
   font-weight: 900;
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  margin-bottom: 6px;
 }
 
 .specialist-title {
@@ -190,6 +287,7 @@
   color: #ec5242;
   font-style: italic;
   font-weight: 900;
+  font-family: "Lato", sans-serif;
 }
 
 .sponsors {
@@ -199,6 +297,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.sponsor-heading {
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
 }
 
 .sponsor-items {
@@ -221,6 +324,8 @@
   margin-right: 10%;
 }
 
+/* About section */
+
 .about-introduction {
   display: flex;
   padding-top: 20%;
@@ -231,9 +336,10 @@
 
 .about-introduction-message {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 500;
   width: 100%;
   text-align: center;
+  font-family: "Cocogoose", sans-serif;
 }
 
 .about-description {
@@ -263,6 +369,17 @@
 
 .about-border {
   border-top: #d3d3d3 solid 4px;
+}
+
+.about-logo-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-logo-section-heading {
+  font-family: "Cocogoose", sans-serif;
+  font-weight: 400;
 }
 
 .about-logo-section-description {
@@ -296,7 +413,11 @@
 
 .feature-program-name {
   margin: 0 3%;
-  background-image: linear-gradient(rgba(228, 43, 23, 0.5), rgba(221, 43, 23, 0.5)), url(./images/meal\ plan.jpg);
+  background-image: linear-gradient(
+      rgba(228, 43, 23, 0.5),
+      rgba(221, 43, 23, 0.5)
+    ),
+    url(./images/meal\ plan.jpg);
   padding: 10% 20%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -306,7 +427,11 @@
 
 .feature-program-name2 {
   margin: 0 3%;
-  background-image: linear-gradient(rgba(228, 43, 23, 0.5), rgba(221, 43, 23, 0.5)), url(./images/nutrtion\ seminar.png);
+  background-image: linear-gradient(
+      rgba(228, 43, 23, 0.5),
+      rgba(221, 43, 23, 0.5)
+    ),
+    url(./images/nutrtion\ seminar.png);
   padding: 10% 20%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -343,6 +468,15 @@
   margin-right: 10%;
 }
 
+.footer-text {
+  font-family: "lato", sans-serif;
+  color: #272a31;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 1.2rem;
+
+}
+
 @media only screen and (min-width: 769px) {
   .featured-program-item-desktop {
     background-color: rgba(88, 89, 90, 0.8);
@@ -353,10 +487,6 @@
     margin-right: 0.5%;
     width: 15%;
     padding: 1%;
-  }
-
-  .program-item-mobile {
-    /* display: none; */
   }
 
   .mobile-hide {
@@ -439,6 +569,16 @@
     height: 480px;
   }
 
+  .program-item-holder {
+    display: flex;
+    gap: 20px;
+    padding: 1% 5%;
+    margin-bottom: 100px;
+    gap: 1%;
+    margin: 0;
+    margin-left: 5%;
+  }
+
   .item {
     flex-direction: column;
     width: 17%;
@@ -451,13 +591,11 @@
     margin-left: 0;
     margin-right: 0;
     text-align: center;
+    transition: outline 0.15s ease-in-out;
   }
 
-  .menu {
-    display: flex;
-    gap: 20px;
-    margin-left: 100px;
-    margin-bottom: 100px;
+  .item:hover {
+    outline: 2px solid #d3d3d3;
   }
 
   .section-subtitle {
@@ -471,8 +609,42 @@
     color: #fff;
   }
 
-  .specialist-image {
-    width: 35%;
+  .button {
+    display: none;
+  }
+
+  .see-more {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 5% 0;
+  }
+
+  .featured-specialists-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.125rem;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    min-width: 768px;
+    padding: 10%;
+    margin-top: -6%;
+  }
+
+  .specialist-content {
+    margin-top: -20px;
+    display: flex;
+    gap: 5%;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .specialist-heading {
+    margin-bottom: 0;
   }
 
   .sponsor-items {
@@ -481,12 +653,6 @@
     width: 50%;
     font-size: 48px;
     padding-left: 4.5%;
-  }
-
-  .featured-specialists-container {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
   }
 
   .about-introduction-message {
