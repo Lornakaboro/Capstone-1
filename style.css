@@ -339,7 +339,7 @@
   width: 100%;
   background-color: #f9f9f9;
   border: #fff solid 2px;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   color: #272a31;
   padding: 0.8rem;
   text-align: center;
@@ -374,7 +374,7 @@
 }
 
 .about-logo-section-heading {
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 600;
   font-size: 40px;
   color: #272a31;
@@ -383,7 +383,7 @@
 .about-logo-section-description {
   text-align: center;
   font-size: 18px;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 600;
   color: #272a31;
 }
@@ -402,7 +402,7 @@
 
 .our-features-heading {
   text-align: center;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   color: #272a31;
   font-size: 40px;
   font-weight: 600;
@@ -410,7 +410,7 @@
 
 .our-features-description {
   text-align: center;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 18px;
   color: #272a31;
 }
@@ -421,8 +421,7 @@
 
 .feature-program-name {
   margin: 0 3%;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(228, 43, 23, 0.5),
       rgba(221, 43, 23, 0.5)
     ),
@@ -435,8 +434,7 @@
 
 .feature-program-name2 {
   margin: 0 3%;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(228, 43, 23, 0.5),
       rgba(221, 43, 23, 0.5)
     ),
@@ -452,7 +450,7 @@
   font-weight: 900;
   color: #f0f2f5;
   text-align: center;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
 }
 
 .feature-program-description {
@@ -521,9 +519,11 @@
   }
 
   .social-media {
+    display: flex;
     list-style: none;
     align-items: center;
     text-align: center;
+    justify-content: space-between;
   }
 
   .social-media-item {
@@ -534,7 +534,8 @@
   .social-media-row {
     align-items: center;
     text-align: center;
-    padding-top: 0.8%;
+    padding-bottom: 0;
+    flex-wrap: nowrap;
   }
 
   .nav {
