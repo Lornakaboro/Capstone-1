@@ -416,9 +416,8 @@
   color: #272a31;
 }
 
-
 .feature-programs {
-   width: 100%;
+  width: 100%;
 }
 
 .feature-program-name {
@@ -499,7 +498,6 @@
     width: 15%;
     padding: 1%;
   }
-
 
   .nav-button-link {
     border: #c21b09 solid 4px;
