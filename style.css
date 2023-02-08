@@ -396,6 +396,7 @@
 
 .our-features-heading {
   text-align: center;
+  font-family: 'lato', sans-serif;
 }
 
 .our-features-description {
@@ -409,12 +410,11 @@
       rgba(228, 43, 23, 0.5),
       rgba(221, 43, 23, 0.5)
     ),
-    url(./images/meal/plan.jpg);
+    url(./images/meal\ plan.jpg);
   padding: 10% 20%;
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 5%;
-  text-align: center;
 }
 
 .feature-program-name2 {
@@ -436,6 +436,7 @@
   font-weight: 900;
   color: #f0f2f5;
   text-align: center;
+  font-family: 'lato', sans-serif;
 }
 
 .feature-program-description {
@@ -645,6 +646,10 @@
     padding-left: 4.5%;
   }
 
+  .about-introduction {
+    padding-top: 11%;
+  }
+
   .about-introduction-message {
     font-size: 60px;
     width: 80%;
@@ -660,8 +665,24 @@
   }
 
   .feature-program-name {
-    flex: 1;
+    /* flex: 1; */
+    padding: 0;
+    width: 45%;
+    height: 45%;
+  }
+
+  .feature-program-name2 {
+    padding: 0;
+    width: 45%;
+  }
+
+  .feature-program-details {
+    font-family: 'lato', sans-serif;
+    font-weight: 900;
+    color: #f0f2f5;
     text-align: center;
+    width: 300px;
+    margin: 20% auto;
   }
 
   .feature-program-heading {
