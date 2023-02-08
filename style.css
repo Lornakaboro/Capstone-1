@@ -337,9 +337,10 @@
 
 .about-description {
   width: 100%;
-  background-color: #e7e7e7;
+  background-color: #f9f9f9;
   border: #fff solid 2px;
-  color: #58595a;
+  font-family: 'lato', sans-serif;
+  color: #272a31;
   padding: 0.8rem;
   text-align: center;
 }
