@@ -421,7 +421,8 @@
 
 .feature-program-name {
   margin: 0 3%;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(228, 43, 23, 0.5),
       rgba(221, 43, 23, 0.5)
     ),
@@ -434,7 +435,8 @@
 
 .feature-program-name2 {
   margin: 0 3%;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(228, 43, 23, 0.5),
       rgba(221, 43, 23, 0.5)
     ),
