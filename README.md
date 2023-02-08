@@ -88,7 +88,7 @@
 <!-- Video link -->
 ## Project Documentation
 
-- Here is the [link]() to my loom video
+- Here is the [link](https://www.loom.com/share/2db150a61dfd486abaab4f1a22ed5f48) to my loom video
 
 <!-- GETTING STARTED -->
 
