@@ -351,7 +351,9 @@
 }
 
 .about-email-link {
+  font-weight: 900;
   color: #000;
+  text-decoration: underline;
 }
 
 .logo-section {
@@ -373,16 +375,22 @@
 }
 
 .about-logo-section-heading {
-  font-family: "Cocogoose", sans-serif;
-  font-weight: 400;
+  font-family: 'lato', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #272a31;
 }
 
 .about-logo-section-description {
   text-align: center;
+  font-size: 18px;
+  font-family: 'lato', sans-serif;
+  font-weight: 600;
+  color: #272a31;
 }
 
 .about-section-logo-image {
-  border: #d3d3d3 solid 2px;
+  border: #272a31 solid 2px;
   width: 50%;
 }
 
@@ -391,16 +399,26 @@
   align-items: center;
   flex-direction: column;
   padding-top: 8%;
-  padding-bottom: 8%;
 }
 
 .our-features-heading {
   text-align: center;
   font-family: 'lato', sans-serif;
+  color: #272a31;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .our-features-description {
   text-align: center;
+  font-family: 'lato', sans-serif;
+  font-size: 18px;
+  color: #272a31;
+}
+
+
+.feature-programs {
+   width: 100%;
 }
 
 .feature-program-name {
@@ -410,7 +428,7 @@
       rgba(228, 43, 23, 0.5),
       rgba(221, 43, 23, 0.5)
     ),
-    url(./images/meal\ plan.jpg);
+    url(./images/fruit-salad.jpg);
   padding: 10% 20%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -482,6 +500,16 @@
     padding: 1%;
   }
 
+
+  .nav-button-link {
+    border: #c21b09 solid 4px;
+    padding: 2%;
+  }
+
+  .nav-button {
+    color: #c21b09;
+  }
+
   .mobile-hide {
     display: block;
   }
@@ -526,6 +554,11 @@
     list-style: none;
     text-decoration: none;
     color: black;
+  }
+
+  .nav-item:hover {
+    color: #c21b09;
+    text-decoration: none;
   }
 
   .header-logo {
@@ -662,37 +695,26 @@
   .feature-programs {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
 
   .feature-program-name {
-    /* flex: 1; */
-    padding: 0;
-    width: 45%;
-    height: 45%;
-  }
-
-  .feature-program-name2 {
-    padding: 0;
-    width: 45%;
-  }
-
-  .feature-program-details {
-    font-family: 'lato', sans-serif;
-    font-weight: 900;
-    color: #f0f2f5;
-    text-align: center;
-    width: 300px;
-    margin: 20% auto;
+    flex: 1;
+    width: 100%;
   }
 
   .feature-program-heading {
     font-size: 20px;
     font-weight: 900;
     color: #f0f2f5;
+    text-align: center;
+    font-family: "Lato", sans-serif;
   }
 
   .feature-program-description {
     font-weight: 900;
     color: #f0f2f5;
+    text-align: center;
+    font-family: "Lato", sans-serif;
   }
 }
