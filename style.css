@@ -1,0 +1,720 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+
+* {
+  font-family: "lato", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-menu-nuweh {
+  position: absolute;
+  z-index: 10;
+  color: #d3d3d3;
+  background-color: #272a31;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.85;
+}
+
+.hamburger {
+  position: absolute;
+  z-index: 10;
+  color: rgba(88, 89, 90, 0.8);
+  font-size: 40px;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+.dropdown-x-icon {
+  margin-left: 8.5%;
+  margin-top: 3%;
+  font-size: 40px;
+  transform: scaleY(0.8);
+}
+
+.nav-dropdown-item-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 62px;
+  text-align: center;
+  margin-left: 6%;
+}
+
+.nav-dropdown-item-link a :hover {
+  color: red;
+}
+
+.nav-dropdown {
+  list-style: none;
+  margin-top: 15%;
+}
+
+.mobile-hide {
+  display: none;
+}
+
+.blur-intro-section {
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.hidden-dropdown-menu {
+  display: none;
+}
+
+.featured-program-item-desktop {
+  display: none;
+}
+
+.program-item-mobile {
+  background-color: rgba(88, 89, 90, 0.8);
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 0.5%;
+  width: 15%;
+  padding: 1%;
+}
+
+.intro-section {
+  background-image: url("./images/background-image.png");
+  height: 100vh;
+}
+
+.introduction {
+  padding-top: 20%;
+  color: #ec5242;
+}
+
+.introduction-title {
+  font-size: 40px;
+  font-weight: 700;
+  width: 100%;
+  font-family: "Cocogoose", sans-serif;
+  transition: all 0.25s ease-in-out;
+}
+
+.introduction-title:hover {
+  color: transparent;
+  background-image: url("./images/title-background.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+}
+
+.introduction-slogan {
+  font-family: "lato", sans-serif;
+}
+
+.introduction-description {
+  width: 100%;
+  background-color: #e7e7e7;
+  border: #fff solid 2px;
+  color: #58595a;
+  padding: 0.8rem;
+  font-family: "lato", sans-serif;
+}
+
+.introduction-offers {
+  color: #272a31;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.introduction-time {
+  color: #58595a;
+  font-weight: 500;
+}
+
+.container-1 {
+  background-image: url("https://clauzzen.files.wordpress.com/2011/01/vintage-pattern_black.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: auto;
+}
+
+.program-item-holder {
+  margin: 10% 3% 0 3%;
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: #444242;
+  justify-content: space-between;
+  gap: 2%;
+  color: #d3d3d3;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  list-style: none;
+  padding: 5% 5%;
+  opacity: 0.8;
+  margin-right: 10px;
+  transition: outline 0.15s ease-in-out;
+}
+
+.program-description {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  flex-shrink: 1;
+}
+
+.item:hover {
+  outline: 2px solid #d3d3d3;
+}
+
+.item-icon {
+  padding-right: 4%;
+  margin: 15px 0;
+}
+
+.main-program {
+  font-family: "Cocogoose", sans-serif;
+  color: #d3d3d3;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.program-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.program-subtitle {
+  font-size: 1rem;
+  font-family: "Cocogoose", sans-serif;
+  color: #ec5242;
+}
+
+.hr-title {
+  border: 1px solid #ec5242;
+  width: 5%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0 20px 0;
+}
+
+.program-button {
+  padding: 5% 7%;
+  font-family: "lato", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto;
+  background-color: #ec5242;
+  color: #f0f2f5;
+  border: 0;
+}
+
+.see-more {
+  display: none;
+}
+
+.featured-specialists {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.specialist-heading {
+  font-size: 24px;
+  color: #272a31;
+  font-family: "Cocogoose", sans-serif;
+}
+
+.featured-specialists-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 3%;
+}
+
+.specialist-content {
+  display: flex;
+  gap: 5%;
+  padding: 1.5rem;
+  background-image: url("./images/chess.svg");
+  background-repeat: no-repeat;
+  background-size: 70px;
+  background-position: left top;
+}
+
+.specialist-image {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  width: 115px;
+  height: 115px;
+}
+
+.specialist-name {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  color: #272a31;
+  margin-bottom: 6px;
+}
+
+.specialist-title {
+  font-size: 13px;
+  text-align: left;
+  color: #ec5242;
+  font-style: italic;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+}
+
+.sponsors {
+  background-color: #272a31;
+  color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-heading {
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+}
+
+.sponsor-items {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  font-size: 20px;
+  padding-left: 0;
+}
+
+.project-rights-home {
+  display: flex;
+  align-items: center;
+  padding: 4%;
+}
+
+.footer-logo {
+  width: 30%;
+  height: 50%;
+  margin-right: 10%;
+}
+
+/* About section */
+
+.about-introduction {
+  display: flex;
+  padding-top: 20%;
+  color: #ec5242;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-introduction-message {
+  font-size: 40px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  font-family: "Cocogoose", sans-serif;
+}
+
+.about-description {
+  width: 100%;
+  background-color: #f9f9f9;
+  border: #fff solid 2px;
+  font-family: "lato", sans-serif;
+  color: #272a31;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.about-email {
+  color: #272a31;
+}
+
+.about-email-link {
+  font-weight: 900;
+  color: #000;
+  text-decoration: underline;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.about-border {
+  border-top: #d3d3d3 solid 4px;
+}
+
+.about-logo-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-logo-section-heading {
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #272a31;
+}
+
+.about-logo-section-description {
+  text-align: center;
+  font-size: 18px;
+  font-family: "lato", sans-serif;
+  font-weight: 600;
+  color: #272a31;
+}
+
+.about-section-logo-image {
+  border: #272a31 solid 2px;
+  width: 50%;
+}
+
+.our-features {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 8%;
+}
+
+.our-features-heading {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  color: #272a31;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.our-features-description {
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-size: 18px;
+  color: #272a31;
+}
+
+.feature-programs {
+  width: 100%;
+}
+
+.feature-program-name {
+  margin: 0 3%;
+  background-image:
+    linear-gradient(
+      rgba(228, 43, 23, 0.5),
+      rgba(221, 43, 23, 0.5)
+    ),
+    url(./images/fruit-salad.jpg);
+  padding: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+}
+
+.feature-program-name2 {
+  margin: 0 3%;
+  background-image:
+    linear-gradient(
+      rgba(228, 43, 23, 0.5),
+      rgba(221, 43, 23, 0.5)
+    ),
+    url(./images/nutrtion\ seminar.png);
+  padding: 10% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+}
+
+.feature-program-heading {
+  font-size: 20px;
+  font-weight: 900;
+  color: #f0f2f5;
+  text-align: center;
+  font-family: "lato", sans-serif;
+}
+
+.feature-program-description {
+  font-weight: 900;
+  color: #f0f2f5;
+  text-align: center;
+}
+
+.project-rights-about {
+  background-color: #272a31;
+  display: flex;
+  align-items: center;
+  padding: 4%;
+}
+
+.footer-content {
+  color: #d3d3d3;
+}
+
+.footer-logo-about {
+  width: 30%;
+  height: 50%;
+  margin-right: 10%;
+}
+
+.footer-text {
+  font-family: "lato", sans-serif;
+  color: #272a31;
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 769px) {
+  .featured-program-item-desktop {
+    background-color: rgba(88, 89, 90, 0.8);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0.5%;
+    width: 15%;
+    padding: 1%;
+  }
+
+  .nav-button-link {
+    border: #c21b09 solid 4px;
+    padding: 2%;
+  }
+
+  .nav-button {
+    color: #c21b09;
+  }
+
+  .mobile-hide {
+    display: block;
+  }
+
+  .mobile-works {
+    display: none;
+  }
+
+  .social-media-section {
+    background-color: #272a31;
+    align-items: center;
+  }
+
+  .social-media {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .social-media-item {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  .social-media-row {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 0;
+    flex-wrap: nowrap;
+  }
+
+  .nav {
+    align-items: center;
+    text-align: center;
+    flex: 2;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-item {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-item:hover {
+    color: #c21b09;
+    text-decoration: none;
+  }
+
+  .header-logo {
+    width: 50%;
+    height: 100%;
+  }
+
+  .header-logo-link {
+    flex: 1;
+  }
+
+  .introduction {
+    padding-top: 10%;
+  }
+
+  .introduction-title {
+    font-size: 60px;
+    width: 70%;
+  }
+
+  .introduction-description {
+    width: 60%;
+  }
+
+  .introduction-offers {
+    font-size: 30px;
+  }
+
+  .introduction-time {
+    font-size: 25px;
+  }
+
+  .container-1 {
+    height: 480px;
+  }
+
+  .program-item-holder {
+    display: flex;
+    padding: 3% 5%;
+    margin-bottom: 40px;
+    gap: 1%;
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .item {
+    flex-direction: column;
+    width: 17%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    transition: outline 0.15s ease-in-out;
+  }
+
+  .item:hover {
+    outline: 2px solid #d3d3d3;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .program-description {
+    color: #fff;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .see-more {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .featured-specialists-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.125rem;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    min-width: 768px;
+    padding: 10%;
+    margin-top: -6%;
+  }
+
+  .specialist-content {
+    margin-top: -20px;
+    display: flex;
+    gap: 5%;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .specialist-heading {
+    margin-bottom: 0;
+  }
+
+  .sponsor-items {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    font-size: 48px;
+    padding-left: 4.5%;
+  }
+
+  .about-introduction {
+    padding-top: 11%;
+  }
+
+  .about-introduction-message {
+    font-size: 60px;
+    width: 80%;
+  }
+
+  .about-description {
+    width: 80%;
+  }
+
+  .feature-programs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .feature-program-name {
+    flex: 1;
+    width: 100%;
+  }
+
+  .feature-program-heading {
+    font-size: 20px;
+    font-weight: 900;
+    color: #f0f2f5;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+
+  .feature-program-description {
+    font-weight: 900;
+    color: #f0f2f5;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+}

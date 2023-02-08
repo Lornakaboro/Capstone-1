@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+    <title>Nuweh website</title>
+  </head>
+  <body>
+    <header class="introduction-section">
+    <nav>
+      <div class="hamburger-icon d-md-none">
+        <i
+          class="fa fa-bars hamburger"
+          aria-hidden="true"
+          id="hamburger-icon"
+          onclick="toggleMobileMenu()"
+        ></i>
+        <div
+          class="dropdown-menu-nuweh hidden-dropdown-menu"
+          id="nav-dropdown-menu"
+        >
+          <i
+            class="fa-regular fa-x dropdown-x-icon"
+            id="nav-dropdown-x-icon"
+            onclick="toggleMobileMenu()"
+          ></i>
+          <ul class="nav-dropdown">
+            <li class="nav-dropdown-item">
+              <a
+                href="about.html"
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this,'#introduction-section')"
+                >About</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                href="#program"
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#about-me')"
+                >Program</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#contact-me')"
+                >Join</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                href="#sponsors"
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#contact-me')"
+                >Sponsor</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#contact-me')"
+                >News</a
+              >
+            </li>
+            <li class="nav-dropdown-item">
+              <a
+                class="nav-dropdown-item-link"
+                onclick="openDropdownItem(this, '#contact-me')"
+                >Nuweh programs</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container-fluid social-media-section mobile-hide">
+        <div class="social-media-row">
+          <ul class="social-media col-3 offset-md-7">
+            <li class="">
+              <a href="" class="social-media-item">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="">
+              <a
+                href="https://twitter.com/KaboroLorna/"
+                class="social-media-item"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="">
+              <a href="#" class="social-media-item">English</a>
+            </li>
+            <li class="">
+              <a href="#" class="social-media-item">Mypage</a>
+            </li>
+            <li class="">
+              <a href="#" class="social-media-item">Logout</a>
+            </li>
+          </ul>
+          <div class="col-1 offset-md-1"></div>
+        </div>
+      </div>
+      <div class="container nav-list pb-3 mobile-hide">
+        <a href="" class="header-logo-link"
+          ><img src="./images/logo.png" alt="" class="header-logo"
+        /></a>
+        <ul class="nav">
+          <li class="col"><a href="about.html" class="nav-item">About</a></li>
+          <li class="col"><a href="#" class="nav-item">Program</a></li>
+          <li class="col"><a href="#" class="nav-item">Join</a></li>
+          <li class="col"><a href="#" class="nav-item">Sponsor</a></li>
+          <li class="col"><a href="#" class="nav-item">News</a></li>
+          <li class="col-3 nav-button-link"><a href="#" class="nav-item nav-button">Nuweh programs</a></li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+
+    <!-- intro-section -->
+    <section class="intro-section" id="introduction-section">
+      <div class="container introduction">
+        <h1 class="introduction-slogan">
+          "The New Tradition is Good Nutrition!"
+        </h1>
+        <h2 class="introduction-title text-uppercase">
+          Nuweh,your virtual nutritionist
+        </h2>
+        <p class="introduction-description">
+          A nutritious diet supports normal growth, development, and aging,
+          helps people maintain a healthy body weight, and lowers their chance
+          of developing chronic diseases, all of which contribute to overall
+          health and wellbeing.
+        </p>
+        <p class="introduction-offers text-uppercase">
+          Free Consultation THUR ~ 12(SAT)
+        </p>
+        <p class="introduction-time">@ 11 a.m to 1.pm GMT</p>
+      </div>
+    </section>
+
+    <!-- our programs -->
+
+    <!-- program section starts -->
+    <section class="section-two" id="program">
+      <section class="container-1">
+        <div class="program-title-container">
+          <h3 class="main-program">Our programs</h3>
+          <hr class="hr-title" />
+        </div>
+
+        <ul class="program-item-holder">
+          <li class="item">
+            <div class="item-icon">
+              <i class="fas fa-chalkboard-teacher text-white"></i>
+            </div>
+            <div class="program-subtitle">Fitness and sports</div>
+            <div class="program-description">
+              <p>
+              Focus on nutrition during exercise and sports
+            </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="item-icon">
+              <i class="fas fa-chalkboard-teacher text-white"></i>
+            </div>
+            <div class="program-subtitle">Maternal Nutrition</div>
+            <div class="program-description">
+              <p>
+              Improving birth outcomes and good maternal health
+              </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="item-icon">
+              <i class="far fa-comments text-white"></i>
+            </div>
+            <div class="program-subtitle">
+              Meal plans
+            </div>
+            <div class="program-description">
+              <p>
+               Meal plans based on food preferences,budget,
+               and <br>schedule
+            </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="item-icon">
+              <span class="material-symbols-outlined">
+                co_present
+                </span>
+            </div>
+            <div class="program-subtitle">
+              Nutritional supplements
+            </div>
+            <div class="program-description">
+              <p>
+              We offer a wide range of nutritional supplements
+            </p>
+            </div>
+          </li>
+
+          <li class="item">
+            <div class="item-icon">
+              <i class="fas fa-laptop text-white"></i>
+            </div>
+            <div class="program-subtitle">
+              Weight Loss
+            </div>
+            <div class="program-description">
+              <p>
+              We offer fitness coaches throughout your journey
+            </p>
+            </div>
+          </li>
+        </ul>
+        <div class="button">
+          <button type="button" id="join" name="join" class="program-button">Join Nuwehvirtualnutritionist</button>
+      </div>
+         <!-- for desktop -->
+    <a class="see-more" href="">SEE THE WHOLE PROGRAM</a>
+      </section>
+   </section>
+
+    <!-- featured specialists generated dynamically -->
+    <section class="featured-specialists">
+        <h3 class="text-center specialist-heading">Our specialists</h3>
+        <hr class="hr-title" />
+      <div class="featured-specialists-container">
+      </div>
+    </div>
+
+    <div class="sponsors container-fluid" id="sponsors">
+      <h3 class="text-center sponsor-heading">Sponsors</h3>
+      <hr class="hr-title" />
+      <ul class="sponsor-items">
+        <li class="col">KNDI</li>
+        <li class="col">WHO</li>
+        <li class="col">FAO</li>
+        <li class="col">WFP</li>
+      </ul>
+    </div>
+
+    <footer class="project-rights-home container">
+      <img
+        src="./images/logo.png"
+        alt="Image of Nuweh logo"
+        class="footer-logo"
+      />
+      <div class="footer-text">
+        <div>Nuweh your virtual Nutritionist</div>
+        <div>
+          &copy; 2022 Nuweh,your virtual Nutritionist. All rights reserved
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/c6cb015206.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
